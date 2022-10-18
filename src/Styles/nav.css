@@ -1,0 +1,326 @@
+.container{
+    padding:0 10px;
+  
+}
+header{
+   height:7vh;
+   margin:auto;
+   width:100vw;
+   background-color:rgb(52, 51, 51);;
+   position:sticky;
+   top:0;
+   box-shadow: 0px 3px 6px #00000029;
+   z-index: 99999;
+}
+.userName li{
+   width:10vw;
+   height:2vh;
+ 
+   font-size:1.4vh;
+   color:white;
+  
+}
+.Overlay{
+   position: fixed;
+   top:0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+   background-color: rgba(202, 198, 198, 0.75);
+}
+.Modal{
+   position:absolute;
+   width:30vw;
+   height:70vh;
+   background-color: #ffffff;
+}
+.direction-column
+{
+   flex-direction: column;
+}
+.navbar{
+   height:inherit;
+   margin:auto;
+   width:80vw;
+   background-color:rgb(52, 51, 51);
+   position:sticky;
+   top:0;
+   
+}
+.logo{
+   height:inherit;
+   width:9vw;
+   border:1px solid black;
+   border-radius:2%;
+   font-size:30px;
+   color:goldenrod;
+   padding:2px;
+  background-color: black;
+   box-sizing: border-box;
+   font-weight: bold;
+   cursor: pointer;
+}
+.space-between{
+   justify-content: space-between;
+}
+.sign{
+   background-color: #ffffff;
+}
+.loginHeader{
+   background-color: transparent;
+   height:10vh;
+   padding: 5px;
+}
+.loginHeader button{
+   height:4vh;
+   background-color: #ffffff;
+   border: 2px solid white;
+   cursor: pointer;
+}
+.loginHeader button:hover{
+  
+   background-color: #eee;
+   
+}
+.marginAbove{
+   margin-top: 2vh;
+   width:20vw;
+   height:4vh;
+ 
+  border-radius: 2px;
+}
+.sign input:hover{
+   border:1px solid #eee;
+   outline: none;
+   box-shadow: 0px 3px 6px gray ;
+}
+.exchange{
+ 
+   height:5vh;
+   
+   margin-top: 4vh;
+  color:grey;
+  font-weight: bold;
+  border:1px solid white;
+   background: white 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px white;
+    border-radius: 4px;
+}
+.googleSignIn{
+  
+   height:5vh;
+   margin-top: 2vh;
+   color:white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+  border:#CE0505;
+   background:white 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px white;
+    border-radius: 4px;
+}
+
+.signInButton{
+   height:5vh;
+    color:white;
+  font-weight: bold;
+  border:#CE0505;
+   background: #CE0505 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px white;
+    border-radius: 4px;
+}
+.loginButton{
+   width:5vw;
+   height:4vh;
+  color:gold;
+  font-weight: bold;
+  border:black;
+   background-color: black;
+    border-radius: 4px;
+}
+.loginButton:hover{
+   cursor: pointer;
+   background-color:rgb(246, 243, 243);
+}
+.viewButton{
+   width:8vw;
+   height:6vh;
+  color:gold;
+  font-weight: bold;
+   background-color: black;
+   border-radius: 4px;
+}
+.viewButton:hover{
+   background-color: rgb(246, 243, 243);
+   cursor: pointer;
+}
+
+.crossStyle{
+  font-size: 3vh;
+}
+div,nav{
+   height:inherit;
+}
+nav ul li{
+   list-style: none;
+   padding: 0 12px;
+   color:white;
+}
+.left{
+   justify-content: flex-start;
+}
+.flex{
+   display: flex;
+}
+.center{
+   justify-content: center;
+}
+.right{
+   justify-content: flex-end;
+}
+.justify-content{
+   justify-content: flex-end;
+}
+.align-items{
+   align-items: center;
+}
+
+@media  (max-width:1200px) {
+   .logo{
+       height:inherit;
+       width:6vw;
+       border:1px solid black;
+       border-radius: 100%;
+       font-size:30px;
+       color:#CE0505;;
+       padding:2px;
+       box-sizing: border-box;
+       font-weight: bold;
+       background-color: white;
+   }
+   .viewButton{
+       width:10vw;
+       height:6vh;
+     
+        border-radius: 3px;
+   }
+   .loginButton{
+       width:8vw;
+      border-radius: 3px;
+   }
+   .marginAbove{
+      
+       width:25vw;
+     
+}
+}
+@media  (max-width:968px) {
+   .logo{
+       height:inherit;
+       width:8vw;
+       border:1px solid black;
+       border-radius: 100%;
+       font-size:30px;
+       color:maroon;
+       padding:2px;
+       box-sizing: border-box;
+       font-weight: bold;
+       background-color: white;
+   }
+   .userName li{
+       width:12vw;
+     
+      font-size:1.3vh;
+      
+   }
+   .marginAbove{
+      width:50vw;
+   }
+   .viewButton{
+       width:12vw;
+       height:6vh;
+     
+        border-radius: 2px;
+   }
+   .Modal{
+       
+       width:70%;
+   }
+}
+@media  (max-width:768px) {
+   .logo{
+       height:inherit;
+       width:9vw;
+       border:1px solid black;
+       border-radius: 100%;
+       font-size:30px;
+       color:#CE0505;
+       padding:2px;
+       box-sizing: border-box;
+       font-weight: bold;
+       background-color: white;
+   }
+   .viewButton{
+       width:16vw;
+     
+   }
+   .userName li{
+       width:14vw;
+     
+      font-size:1.2vh;
+      
+   }
+   .marginAbove{
+       width:60vw;
+    }
+   .loginButton{
+       width:10vw;
+      border-radius: 3px;
+   }
+   .Modal{
+       
+       width:80%;
+   }
+}
+@media  (max-width:576px) {
+   .logo{
+       height:inherit;
+       width:13vw;
+       border:1px solid black;
+       border-radius: 100%;
+       font-size:30px;
+       color:#CE0505;
+       padding:2px;
+       box-sizing: border-box;
+       font-weight: bold;
+       background-color: white;
+   }
+   .userName li{
+       width:20vw;
+     
+      font-size:1.1vh;
+      
+   }
+   .viewButton{
+       width:22vw;
+       font-size: 1.3vh;
+       
+   }
+   .loginButton{
+       width:13vw;
+      border-radius: 3px;
+      font-size: 1.5vh;
+   }
+   .marginAbove{
+       width:80vw;
+    }
+   .Modal{
+      
+       width:100%;
+   }
+}

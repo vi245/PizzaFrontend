@@ -1,0 +1,126 @@
+.ingredientBlock{
+    background-color: white;
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 0 2px;
+    display: flex;
+}
+.optionsBlock{
+    display: flex;
+    background-color: transparent;
+    box-shadow: 0px 3px 6px #00000029;
+    margin: auto;
+    width:100vw;
+    height:auto;
+    flex-direction: column;
+}
+.pizzaType
+{
+    display: flex;
+    background-color:transparent;
+    margin: auto;
+    width:80vw;
+    box-shadow: 0px 3px 6px #00000029;
+    height:20rem;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.pizzaTypeMenu{
+    display: flex;
+    flex-wrap: wrap;
+    width: inherit;
+    height: 10rem;
+}
+.pizzaTypeMenu input[type="radio"]
+{
+    appearance: none;
+}
+.pizzaTypeMenu input[type="checkbox"]
+{
+    appearance: none;
+}
+.toppingList{
+    display: inline;
+    height: 5rem;
+    font-weight: bold;
+}
+.pizzaName{
+    width:12rem;
+    background-color: transparent;
+    border: 2px solid black;
+    height:3rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    margin-inline-end: 4px;
+}
+.pizzaName:hover{
+    background-color: cornsilk;
+}
+.pizzaCrust
+{
+    background-color: transparent;
+    margin: auto;
+    box-shadow: 0px 3px 6px #00000029;
+    width:80vw;
+    height:10rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+    box-sizing: border-box;  
+}
+.pizzaCheese
+{
+    background-color: transparent;
+    margin: auto;
+    box-shadow: 0px 3px 6px #00000029;
+    width:80vw;
+    height:20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+    box-sizing: border-box;  
+}
+.pizzaVegToppings
+{
+    background-color: transparent;
+    margin: auto;
+    box-shadow: 0px 3px 6px #00000029;
+    width:80vw;
+    height:20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+    box-sizing: border-box; 
+}
+.pizzaNonVegToppings
+{
+    background-color: transparent;
+    box-shadow: 0px 3px 6px #00000029;
+    margin: auto;
+    width:80vw;
+    height:20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+    box-sizing: border-box; 
+}
+.pizzaSauce
+{
+    background-color: transparent;
+    box-shadow: 0px 3px 6px #00000029;
+    margin: auto;
+    width:80vw;
+    height:20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+    box-sizing: border-box; 
+}
