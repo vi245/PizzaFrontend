@@ -20,7 +20,7 @@ class ViewCart extends React.Component{
         })
        axios({
         method:'GET',
-        url:'http://localhost:3000/cart/getCartItems',
+        url:'https://pizzaorderms.herokuapp.com/cart/getCartItems',
         headers:{'Content-Type':'application/json'},
        }).then((response)=>{
               // Add quantity for each item
@@ -62,7 +62,7 @@ class ViewCart extends React.Component{
        const userId=user._id;
         const config={
               method:"POST",
-              url:"http://localhost:3000/api/create-checkout-session",
+              url:"https://pizzaorderms.herokuapp.com/api/create-checkout-session",
               data:{
                   userId,userEmail,cartItems,
               },
@@ -116,7 +116,7 @@ class ViewCart extends React.Component{
      {
       axios({
         method:'DELETE',
-        url:`http://localhost:3000/cart/removeCartItem?id=${id}`,
+        url:`https://pizzaorderms.herokuapp.com/cart/removeCartItem?id=${id}`,
       }).then(response=>console.log(response)).catch(err=>console.log(err));
       cartItems.splice(selectCartIndex,1);
       this.setState({cartItems:cartItems});

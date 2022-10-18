@@ -45,7 +45,7 @@ class Navbar extends React.Component{
         let  password=this.state.password;
           const config={
             method:"POST",
-            url:"http://localhost:3000/loginUser/register",
+            url:"https://pizzaorderms.herokuapp.com/loginUser/register",
             data:{
               name,email,password,
             },
@@ -71,7 +71,7 @@ class Navbar extends React.Component{
         let password=this.state.password;
           const config={
             method:"POST",
-            url:"http://localhost:3000/loginUser/login",
+            url:"https://pizzaorderms.herokuapp.com/loginUser/login",
             data:{
               email,password,
             },
@@ -95,7 +95,7 @@ class Navbar extends React.Component{
                 console.log(user.token);
                 axios({
                     method:'GET',
-                    url:'http://localhost:3000/loginUser/authentication',
+                    url:'https://pizzaorderms.herokuapp.com/loginUser/authentication',
                     headers:{
                         Authorization:`Bearer ${user.token}`,
                     },

@@ -28,7 +28,7 @@ class Order extends React.Component{
           const userEmail=user.email;
           axios({
             method:'GET',
-            url:`http://localhost:3000/order/getOrderDetailsByUser?userEmail=${userEmail}`,
+            url:`https://pizzaorderms.herokuapp.com/order/getOrderDetailsByUser?userEmail=${userEmail}`,
             headers:{'Content-Type':'application/json'} 
           }
           ).then(response=> {this.setState({orderData:response.data});this.setState({open:false});

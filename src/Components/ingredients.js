@@ -34,7 +34,7 @@ class Ingredients extends React.Component{
     axios(
       {
         method:'GET',
-        url:'http://localhost:3000/ingredient/getIngredient',
+        url:'https://pizzaorderms.herokuapp.com/ingredient/getIngredient',
         headers:{'Content-Type':'application/json'},
       }
     ).then(response=> this.setState({ingredients:response.data})).catch();
@@ -69,7 +69,7 @@ class Ingredients extends React.Component{
       let amount=totalPrice;
          const config={
            method:"POST",
-           url:"http://localhost:3000/cart/addCartItem",
+           url:"https://pizzaorderms.herokuapp.com/cart/addCartItem",
            data:{
              pizzaType,crustType,cheeseType,vegToppingsType,NonVegToppingsType,SauceType,amount
            },

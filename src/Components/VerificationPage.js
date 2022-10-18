@@ -19,7 +19,7 @@ class Verification extends React.Component{
         const token=this.props.match.params.token;
         axios({
             method:'PUT',
-            url:`http://localhost:3000/loginUser/confirm/${token}`,
+            url:`https://pizzaorderms.herokuapp.com/loginUser/confirm/${token}`,
         }).then((response)=>{console.log(response)
        if(response.data.status===200)
        {
