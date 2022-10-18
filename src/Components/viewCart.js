@@ -167,9 +167,9 @@ class ViewCart extends React.Component{
           </h3>
           <h3>Amount:{item.amount}</h3>
         </div>
-        <div>
+        <div className="bar">
            <button  onClick={(e)=>this.decrement(e,item._id)}className="dimension">-</button>
-            <input type="text" value={item.quantity} readOnly></input>
+            <input className="quant" type="text"style={{"textAlign":"center"}} value={item.quantity} readOnly></input>
             <button  onClick={(e)=>this.increment(e,item._id)} className="dimension">+</button>
         </div>
       </div>)

@@ -124,3 +124,77 @@
     padding: 0 10px;
     box-sizing: border-box; 
 }
+@media(max-width:768px){
+    .pizzaType
+{
+    width:90vw;
+    height:30rem;
+}
+.pizzaCrust
+{
+    width:90vw;
+    height:30rem;
+}
+.pizzaCheese
+{
+    width:90vw;
+    height:30rem;
+}
+.pizzaVegToppings
+{
+    width:90vw;
+    height:30rem;
+}
+.pizzaNonVegToppings
+{
+    width:90vw;
+    height:30rem;
+}
+.pizzaSauce
+{
+    width:90vw;
+    height:30rem;
+}
+.pizzaType
+{
+    width:90vw;
+    height:30rem;
+}
+.pizzaTypeMenu{
+    height: auto;
+}
+
+}
+@media(max-width:576px){
+    .pizzaType
+{
+    width:100vw;
+    height:40rem;
+}
+.pizzaCrust
+{
+    width:100vw;
+    height:40rem;
+}
+.pizzaCheese
+{
+    width:100vw;
+    height:40rem;
+}
+.pizzaVegToppings
+{
+    width:100vw;
+    height:40rem;
+}
+.pizzaNonVegToppings
+{
+    width:100vw;
+    height:40rem;
+}
+.pizzaSauce
+{
+    width:100vw;
+    height:40rem;
+}
+
+}

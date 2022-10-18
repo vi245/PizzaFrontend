@@ -35,7 +35,7 @@
 }
 .cartItem{
     display: flex;
-    width:80vw;
+    width:85vw;
     height:18rem;
     margin: auto;
     background-color:transparent;
@@ -53,4 +53,37 @@
 .cartItemDetails h3{
     margin-top:-10px;
    
+}
+.quant{
+    width:5vw;
+}
+.bar{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+@media(max-width:1200px){
+    .cartItem{
+        width:90vw;
+    }
+   
+}
+@media(max-width:768px){
+    .cartItem{
+        width:95vw;
+    }  
+}
+@media(max-width:576px){
+    .cartItem{
+        width:100vw;
+        height:auto;
+        font-size:12px;
+    } 
+}
+@media(max-width:430px){
+    .cartItem{
+        height:auto;
+        font-size:10px;
+    } 
 }
